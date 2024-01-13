@@ -1,0 +1,9 @@
+.film_list {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 36px;
+  padding: 21px 32px;
+  width: 946px;
+  background: #FFF;
+}
