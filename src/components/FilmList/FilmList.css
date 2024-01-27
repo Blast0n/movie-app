@@ -1,11 +1,21 @@
 .film_list {
   display: grid;
   margin: 0 auto;
-  grid-template-columns: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr;
   gap: 36px;
 }
 
 .ant-pagination {
   margin: 0 auto;
   grid-column: span 2;
+}
+
+@media(max-width:1120px){
+  .film_list{
+    display: block;
+  }
+  .ant-pagination {
+    display: flex;
+    justify-content: center;
+  }
 }

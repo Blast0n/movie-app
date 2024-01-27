@@ -1,6 +1,6 @@
 #root {
   margin: 0 auto;
-  width: 946px;
+  max-width: 946px;
   background: #FFF;
   padding: 32px;
 }

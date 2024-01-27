@@ -107,3 +107,9 @@
 .green {
   border: 0.1375em solid #66E900;
 }
+
+@media(max-width:1120px){
+  .film_list__item{
+    margin-bottom: 20px;
+  }
+}
